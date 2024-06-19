@@ -30,22 +30,22 @@ body{
     line-height: 2;
 }
 
-
 .contact img{
     position: absolute;
     width: 1400px;
-    left: -720px;
+    left: -700px;
+    
 }
 .contact h3{
     position: absolute;
-    left: -345px;
+    left: -325px;
     top: 1220px;
     color: #5e4f41;
     font-size: 50px;
 }
 .contact p{
     position: absolute;
-    left: -340px;
+    left: -320px;
     top: 1310px;
     color: #5e4f41;
     font-size: 20px;
@@ -55,18 +55,19 @@ body{
 .education img{
     position: absolute;
     width: 1400px;
-    left: -750px;
+    left: -710px;
 }
 .education h3{
     position: absolute;
     top: 1460px;
+    left: 40px;
     color: #5e4f41;
     font-size: 50px;
 }
 .education p{
     width: 500px;
     position: absolute;
-    left: 5px;
+    left: 45px;
     top: 1550px;
     color: #5e4f41;
     font-size: 20px;
