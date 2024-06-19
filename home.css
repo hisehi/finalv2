@@ -24,7 +24,7 @@ body{
 .board h3{
     position: absolute;
     left: 480px;
-    top: 335px;
+    top: 345px;
     color: #5e4f41;
 }
 .board a:hover h3{
@@ -43,7 +43,7 @@ body{
 }
 .desk h3{
     position: absolute;
-    left: 670px;
+    left: 655px;
     top: 630px;
     color: #5e4f41;
 }
