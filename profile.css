@@ -38,8 +38,8 @@ body{
 }
 .contact h3{
     position: absolute;
-    left: -340px;
-    top: 1210px;
+    left: -345px;
+    top: 1220px;
     color: #5e4f41;
     font-size: 50px;
 }
@@ -59,8 +59,7 @@ body{
 }
 .education h3{
     position: absolute;
-    left: 5px;
-    top: 1450px;
+    top: 1460px;
     color: #5e4f41;
     font-size: 50px;
 }
@@ -82,7 +81,7 @@ body{
 .skills h3{
     position: absolute;
     left: -350px;
-    top: 1710px;
+    top: 1720px;
     color: #5e4f41;
     font-size: 50px;
 }
