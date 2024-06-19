@@ -43,7 +43,7 @@ body{
 body h1{
     font-size: 150px;
     color: #5e4f41;
-    margin-right: 180px;
+    margin-right: 190px;
     
 }
 
@@ -52,4 +52,8 @@ a:hover h1{
 }
 a:hover img{
     width: 225px;
+}
+a:hover h3{
+    font-size: 30px;
+    text-decoration: underline;
 }
