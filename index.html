@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 </head>
 <body>
     <div class="home">
@@ -25,7 +26,34 @@
             </div>
             <h3>CLICK!</h3>
         </a>
+
+        <div class="cloud">
+            <img src="img/cloud.png" alt="" class="floating floating1">
+        </div>
         
     </div>
+
+    <script>
+        function random(min, max){
+            return parseFloat((Math.random() *(max - min) + min).toFixed(2));
+
+        }
+        console.log(random(10,20));
+
+        function floatingObject (selector, delay, size){
+            gsap.to(selector, random(6.5, 9.5), {
+                y:size,
+                repeat:-1,
+                yoyo:true,
+                ease: Power1.easeInOut,
+                delay:random(0, delay)
+            })
+        }
+
+        floatingObject('.floating1', 1, 30);
+        floatingObject('.floating2', 1.5, 200);
+        floatingObject('.floating3', 3, 200);
+
+    </script>
 </body>
 </html>

@@ -57,3 +57,13 @@ a:hover h3{
     font-size: 30px;
     text-decoration: underline;
 }
+
+.cloud img{
+    display: block;
+}
+.cloud .floating1{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 400px;
+}
